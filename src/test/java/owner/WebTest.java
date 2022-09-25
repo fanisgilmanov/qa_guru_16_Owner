@@ -16,7 +16,7 @@ public class WebTest {
         driver = new WebDriverProvider().get();
     }
     @Test
-    public void testDzen(){
+    public void testGoogle(){
         String title = driver.getTitle();
         WebElement searchInput = driver.findElement(By.name("q"));
         searchInput.sendKeys("qa engineer");
