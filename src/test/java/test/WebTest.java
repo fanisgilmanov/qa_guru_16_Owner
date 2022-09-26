@@ -1,4 +1,4 @@
-package owner;
+package test;
 
 import config.WebDriverProvider;
 import org.junit.jupiter.api.AfterEach;
